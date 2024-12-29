@@ -1,0 +1,7 @@
+[package]
+name = "css_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lightningcss         = { version="1.0.0-alpha.61", features = ["sourcemap", "browserslist", "visitor", "into_owned","serde"] }
